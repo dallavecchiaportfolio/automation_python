@@ -1,0 +1,20 @@
+To create an executable Python file install pyinstaller
+> pip install pyinstaller <enter>
+
+Create the executable file
+> pyinstaller --onefile fileName.py <enter>
+
+Navigate to "dist" folder, where the executable file is located
+
+On Windows it is a .exe file, nothing has to be done, only exectue the .exe file
+fileName.exe <enter>
+
+On macOS need to rename the file to .sh
+mv fileName fileName.sh <enter>
+
+Change the access permission to executable
+chmod +x fileName.sh <enter>
+
+To execute the file .sh. If any argument is required add it after the fileName.sh
+./fileName.sh <enter> - without arguments
+./fileName.sh argument1 argument2 <enter> - with arguments

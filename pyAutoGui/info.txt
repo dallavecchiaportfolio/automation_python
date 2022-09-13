@@ -1,0 +1,24 @@
+Automation with pyautogui
+
+pyautogui docs
+- https://pyautogui.readthedocs.io/en/latest/quickstart.html
+
+STEPS TO AUTOMATE TASK WITH PYAUTOGUI"
+- create Virtual Environment to have packages only for the project
+  > python3 -m venv automatioEnv <enter>
+- activate Virtual Environment
+  > source \automationEnv\bin\activate <enter>
+- update pip
+  > python3 -m pip install --upgrade pip <enter>
+- check if pyautogui is installed
+  > pip freeze <enter>
+- if not installed, install it
+  > pip install pyautogui
+  
+
+EXTRA INFO
+- Screen resolution
+  macBook Pro 2880 x 1800
+  Asus
+  Beelink
+  macBook Air
